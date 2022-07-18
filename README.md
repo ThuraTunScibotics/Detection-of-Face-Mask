@@ -8,6 +8,7 @@ Phase:1 - Train Face Mask Detector
   1. Load Face Mask Dataset
   2. Train Face Mask Classifier with Keras/TensorFlow and using MobileNetV2 as baseModel
   3. Serialize trained face mask classification model to disk
+
 Phase:2 - Apply Face Mask Detector
   1. Load face mask classification model from disk
   2. Detect faces in image/videostream 
@@ -23,7 +24,9 @@ conda create -n FaceMaskDetector jupyter tensorflow keras python opencv imutils 
 ```
 Activate created environment.
 ```
-conda activate SocialDistancingDetector
+conda activate FaceMaskDetector
+
+jupyter-notebook
 ```
 ## Demo 
 
