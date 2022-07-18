@@ -1,12 +1,12 @@
 # Detection-of-Face-Mask
 
 ## Background - One of the tasks for Computer Vision internship at [The Sparks Foundation](https://internship.thesparksfoundation.info/).
-### Face Mask Detection project by classification of `with_mask` & `without_mask` classes is using TensorFlow, Keras and with MobileNetV2 DNN architecture having weights of pre-trained on the `imagenet`. Training for the model and the dataset of this project is done on free GPU of GoogleColab notebook. 
+### Face Mask Detection project by classification of `with_mask` & `without_mask` classes is using TensorFlow, Keras and transfer learning with MobileNetV2 DNN architecture having weights of pre-trained on the `imagenet`. Training for the model and the dataset of this project is done on free GPU of GoogleColab notebook. 
 
 ## Algorithm
 Phase:1 - Train Face Mask Detector
   1. Load Face Mask Dataset
-  2. Train Face Mask Classifier with Keras/TensorFlow and using MobileNetV2 as baseModel
+  2. Train Face Mask Classifier with Keras/TensorFlow and using Transfer Learning with MobileNetV2 as baseModel
   3. Serialize trained face mask classification model to disk
 
 Phase:2 - Apply Face Mask Detector
