@@ -22,9 +22,17 @@ Install anaconda on your machine, and run the following cell on terminal/command
 ```
 conda create -n FaceMaskDetector jupyter tensorflow keras python opencv imutils scipy numpy pandas matplotlib
 ```
-## Classification Report & Train Accuracy & Loss Evaluation
-<img src="classification-report.png" alt="Classification Report">   <img src="evaluation.png" alt="Training Accuracy & Loss">
+## Model Architecture
+`MobileNetV2 BaseModel` -> `Average Pooling` -> `Flatten` -> `Dense` -> `Dropout` -> `Dense`
+* Transfer Learning with `MobileNetV2` with weights of pretrained on `imagenet`
+* Average Pooling with `pool_size=(7, 7)`
+* `flatten` into vector
+* Dense layer with `units=128` and `activation='relu'`
+* Dropout 50%/`0.5` of neurons
+* Final Dense layer with `units=2` and `activation=`softmax`
 
+## Classification Report & Train Accuracy & Loss Evaluation
+<img src="classification-report.png" align="center" alt="Classification Report">   <img src="evaluation.png" align="center" alt="Training Accuracy & Loss">
 
 ## Demo 
 
