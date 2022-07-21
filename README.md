@@ -35,7 +35,7 @@ conda create -n FaceMaskDetector jupyter tensorflow keras python opencv imutils 
 <img src="classification-report.png" align="center" alt="Classification Report">      <img src="evaluation.png" align="center" alt="Training Accuracy & Loss">
 
 ## Demo 
-<img src="https://github.com/ThuraTunScibotics/Detection-of-Face-Mask/blob/main/output.gif" height="-50%" width="-50%" align="center">
+<img src="https://github.com/ThuraTunScibotics/Detection-of-Face-Mask/blob/main/output.gif" height="-70%" width="-65%" align="center">
 
 ## References
 
