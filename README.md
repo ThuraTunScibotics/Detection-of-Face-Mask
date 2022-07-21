@@ -22,12 +22,10 @@ Install anaconda on your machine, and run the following cell on terminal/command
 ```
 conda create -n FaceMaskDetector jupyter tensorflow keras python opencv imutils scipy numpy pandas matplotlib
 ```
-Activate created environment.
-```
-conda activate FaceMaskDetector
+## Classification Report & Train Accuracy & Loss Evaluation
+<img src="classification-report.png" alt="Classification Report">   <img src="evaluation.png" alt="Training Accuracy & Loss">
 
-jupyter-notebook
-```
+
 ## Demo 
 
 
