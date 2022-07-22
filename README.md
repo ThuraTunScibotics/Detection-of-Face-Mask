@@ -31,6 +31,10 @@ conda create -n FaceMaskDetector jupyter tensorflow keras python opencv imutils 
 * Dropout 50%/`0.5` of neurons
 * Final Dense layer with `units=2` and `activation='softmax'`
 
+## Compile and train the model
+* `learning_rate` with `1e-4`, using `adam` optimizer, `loss` with `binary_crossentropy`, and `metric` with `["accuracy"]`
+* Train with `DataAugmentation` for better accuracy, `batch_size` with `32`, and `epochs` with `20`
+
 ## Classification Report & Train Accuracy & Loss Evaluation
 <img src="classification-report.png" align="center" alt="Classification Report">      <img src="evaluation.png" align="center" alt="Training Accuracy & Loss">
 
